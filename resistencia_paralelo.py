@@ -1,3 +1,7 @@
+# This file is part of the project's source code.
+# Copyright (c) 2025 Daniel Monzon.
+# Licensed under the MIT License. See the LICENSE file in the repository root.
+
 # -*- coding: utf-8 -*-
 """
 Created on Tue Dec 16 19:21:51 2025
@@ -23,4 +27,5 @@ Req = 1 / sum(1 / r for r in R)
 
 # Show the result
 print(f"The equivalent resistance is: {Req:.2f} ohms")
+
 

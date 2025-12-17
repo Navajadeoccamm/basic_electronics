@@ -1,3 +1,7 @@
+% This file is part of the project's source code.
+% Copyright (c) 2025 Daniel Monzon.
+% Licensed under the MIT License. See the LICENSE file in the repository root.
+
 function Req = parallel_resistance(R_values)
 %PARALLEL_RESISTANCE Computes equivalent resistance of resistors in parallel.
 %   Req = PARALLEL_RESISTANCE(R_values) returns the equivalent resistance Req
@@ -44,3 +48,4 @@ function Req = parallel_resistance(R_values)
     % Compute the equivalent resistance
     Req = 1 / reciprocal_sum;
 end
+
